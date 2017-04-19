@@ -43,28 +43,44 @@
 #
 # print('This is the end of Lecture 30')
 
-print('This is the beginning of Lecture 31')
-printStr="4,220,123"
-for i in range(0,len(printStr)):
-    print('{} position has a value of {}'.format(i,printStr[i]))
-
-cleanStr=''
-for i in range(0,len(printStr)):
-    if printStr[i] in '0123456789':
-        cleanStr=cleanStr+printStr[i]
-print(cleanStr)
-print('This is the end of Lecture 31')
+# print('This is the beginning of Lecture 31')
+# printStr = "4,220,123"
+# for i in range(0, len(printStr)):
+#     print('{} position has a value of {}'.format(i,printStr[i]))
+#
+# cleanStr=''
+# for i in range(0,len(printStr)):
+#     if printStr[i] in '0123456789':
+#         cleanStr=cleanStr+printStr[i]
+# print(cleanStr)
+# print('This is the end of Lecture 31')
+#
+# print()
+# print('This is the beginning of Lecture 32')
+# printStr32='3,456,789'
+# cleanStr32=''
+# for zz in printStr32:
+#     if zz in printStr32:
+#         cleanStr32=cleanStr32+zz
+# print(cleanStr32)
+# for i in range(0, 50, 3):
+#     print(i)
+#
+# print('This is the end of Lecture 32')
 
 print()
-print('This is the beginning of Lecture 32')
-printStr32='3,456,789'
-cleanStr32=''
-for zz in printStr32:
-    if zz in printStr32:
-        cleanStr32=cleanStr32+zz
-print(cleanStr32)
-for i in range(0,50,3):
-    print(i)
+print('This is the beginning of Lecture 33')
 
-print('This is the end of Lecture 32')
+shopping_list=["eggs", "bread", "spam", "bacon"]
+for item in shopping_list:
+    if item == "spam":
+        # print("You cannot have {} for breakfast".format(item))
+        continue
+    else:
+        print("Buy {}".format(item))
+
+print('This is the end of Lecture 33')
+
+
+
 
