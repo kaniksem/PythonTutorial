@@ -17,3 +17,11 @@ print(fruit)
 #fruit.clear() # this would delete all the elements of the dictionary
 
 print(fruit.__getitem__("grape")) #this is another way of accessing the values in dictionary by using a key
+
+for item in (fruit.keys()):
+    print(item)
+
+# for i in range(0,10):
+#     for item in (fruit):
+#         print(item + ' ' + fruit[item])
+#     print('q'*40)
